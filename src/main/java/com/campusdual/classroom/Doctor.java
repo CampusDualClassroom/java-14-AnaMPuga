@@ -8,4 +8,8 @@ public class Doctor extends Person {
 		super(name, surname);
 		this.specialization = specialization;
 	}
+
+	public void getDetails(){
+		System.out.println("El nombre de esta persona es " + name + ". Su apellido es " + surname + ". Su especialización es " + specialization + ".");
+	}
 }
